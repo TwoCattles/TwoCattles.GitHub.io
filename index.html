@@ -3,7 +3,8 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="icon" type="image/png" href="icon.png">
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="language" content="zh-tw">
@@ -15,8 +16,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta name="google" content="notranslate">
   <meta property="og:image" content="icon.png">
+  <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed" defer></script>
 </head>
 <body>
+  <div id="page">
   <div onclick="join()" id="title">
     <img src="icon.png" width="55px">
     牛舍伺服器
@@ -28,8 +31,17 @@
     <br>
     進入牛舍只有一個規定：要快樂！<br>
     <br>
-    <code onclick="join()">node2.ultimatesrv.com:25716</code>
-    <!--正在等大佬來幫我們寫介紹 🛐🛐🛐🛐🛐<br>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfYC6K0pMIIdvsrVNw0X301VXzIj0zDrIXoRQIE51_TG07UMg/viewform?embedded=true" width="100%" height="40%" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe-->
+    <code onclick="join()">node2.ultimatesrv.com:25716</code><br><br>
+    <div style="width:100%;height:600px;" id="discord">
+        <div>
+          <widgetbot
+          server="923967993980010526"
+          channel="975392958004219994"
+          width="100%"
+          height="600"
+        ></widgetbot>
+      </div>
+  </div>
+  </div>
   </div>
 </body>

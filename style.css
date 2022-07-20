@@ -2,11 +2,24 @@
     font-family: "GenSen"; 
     src: url(gensen.ttc); 
 }
+@font-face { 
+  font-family: "ThinGenSen"; 
+  src: url(thingensen.ttc); 
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Comfortaa';
+  src: url(comfortaa.ttf)
+}
 * {
-  font-family: "GenSen";
+  font-family: "ThinGensen",sans-serif;
   text-align: center;
 }
+body {
+  margin: 0;
+}
 div#title {
+  font-family: 'Gensen' !important;
   position: relative; 
   top: 0px; 
   left: 0px; 
@@ -16,10 +29,11 @@ div#title {
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  backdrop-filter: blur(4px);
   background-image: url("https://media.discordapp.net/attachments/973799815840407552/981092878749147196/unknown.png?width=1251&height=674");
+  backdrop-filter: blur(4px);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
   color: black;
   cursor: pointer;
 }
@@ -27,7 +41,11 @@ div#content {
   font-size: 25px
 }
 code {
-  background-color: lightgray;
+  background-color: #fcfcfc;
   border-radius: 5px;
   cursor: pointer;
+}
+#discord {
+  background-color: #ffd7d9;
+  display: inline-block;
 }
