@@ -7,10 +7,6 @@
   src: url(thingensen.ttc); 
   font-weight: 100;
 }
-@font-face {
-  font-family: 'Comfortaa';
-  src: url(comfortaa.ttf)
-}
 * {
   font-family: "ThinGensen",sans-serif;
   text-align: center;
