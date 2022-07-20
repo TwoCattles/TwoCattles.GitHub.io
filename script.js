@@ -4,9 +4,9 @@ function join(){
 window.onload = function changePic(){  
   const title = document.querySelector('#title')
   const list = [
-    'url("https://media.discordapp.net/attachments/973799815840407552/981092878749147196/unknown.png?width=1251&height=674")',
-    'url("https://cdn.discordapp.com/attachments/973799815840407552/981092879097282580/unknown.png?width=1251&height=674")',
-    'url("https://cdn.discordapp.com/attachments/973799815840407552/981092879424421948/unknown.png?width=1251&height=674")'
+    'url("assets/1.png")',
+    'url("assets/2.png")',
+    'url("assets/3.png")'
   ]
   const random = Math.floor(Math.random() * 3)
   $('#title').css({'background-image':list[random]})

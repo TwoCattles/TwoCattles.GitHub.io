@@ -1,10 +1,10 @@
 @font-face { 
     font-family: "GenSen"; 
-    src: url(gensen.ttc); 
+    src: url(assets/gensen.ttc); 
 }
 @font-face { 
   font-family: "ThinGenSen"; 
-  src: url(thingensen.ttc); 
+  src: url(assets/thingensen.ttc); 
   font-weight: 100;
 }
 * {
@@ -25,7 +25,7 @@ div#title {
   justify-content: center;
   align-items: center;
   font-size: 40px;
-  background-image: url("https://media.discordapp.net/attachments/973799815840407552/981092878749147196/unknown.png?width=1251&height=674");
+  background-image: url("assets/1.png");
   backdrop-filter: blur(4px);
   background-repeat: no-repeat;
   background-position: center center;
