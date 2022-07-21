@@ -1,10 +1,10 @@
 @font-face { 
     font-family: "GenSen"; 
-    src: url(assets/gensen.ttc); 
+    src: url(assets/title.ttf); 
 }
 @font-face { 
   font-family: "ThinGenSen"; 
-  src: url(assets/thingensen.ttc); 
+  src: url(assets/about.ttf); 
   font-weight: 100;
 }
 * {
