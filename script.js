@@ -6,9 +6,11 @@ window.onload = function changePic(){
   const list = [
     'url("assets/1.webp")',
     'url("assets/2.webp")',
-    'url("assets/3.webp")'
+    'url("assets/3.webp")',
+    'url("assets/4.webp")'
   ]
-  const random = Math.floor(Math.random() * 3)
+  const random = Math.floor(Math.random() * 4)
+  console.log(random)
   $('#title').css({'background-image':list[random]})
   if (random!=0) title.style.color = 'white'
 }
