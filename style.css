@@ -45,3 +45,22 @@ code {
   background-color: #ffd7d9;
   display: inline-block;
 }
+#theme-toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+#theme-toggle-button {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 5px;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 100%;
+  cursor: pointer;
+}
