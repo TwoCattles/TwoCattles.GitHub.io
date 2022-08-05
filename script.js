@@ -1,5 +1,5 @@
 function join(){
-    location.href = 'minecraft://?addExternalServer=牛舍伺服器|asia7.asiannodes.host:25706'
+    location.href = 'minecraft://?addExternalServer=牛舍伺服器|node3-hk.aquaticnodes.host:19898'
 }
 window.onload = function changeTheme(){  
   const title = document.querySelector('#title')
